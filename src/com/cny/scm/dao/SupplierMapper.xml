@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.cny.scm.dao.SupplierMapper">
+  <resultMap id="supplierResultMap" type="com.cny.scm.entity.Supplier">
+    <id column="sup_id" jdbcType="INTEGER" property="supId" />
+    <result column="sup_name" jdbcType="VARCHAR" property="supName" />
+    <result column="sup_linkman" jdbcType="VARCHAR" property="supLinkman" />
+    <result column="sup_phone" jdbcType="VARCHAR" property="supPhone" />
+    <result column="sup_address" jdbcType="VARCHAR" property="supAddress" />
+    <result column="sup_remark" jdbcType="VARCHAR" property="supRemark" />
+  </resultMap>
+
+</mapper>
